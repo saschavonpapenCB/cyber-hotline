@@ -12,6 +12,7 @@ import { PartnersComponent } from './partners/partners.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { HelplineComponent } from './helpline/helpline.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HelplineComponent } from './helpline/helpline.component';
     PartnersComponent,
     LoginComponent,
     SignupComponent,
-    HelplineComponent
+    HelplineComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
