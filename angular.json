@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/cyber-website",
+            "outputPath": "dist/cyber-hotline",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "cyber-website:build"
+            "browserTarget": "cyber-hotline:build"
           }
         },
         "test": {
